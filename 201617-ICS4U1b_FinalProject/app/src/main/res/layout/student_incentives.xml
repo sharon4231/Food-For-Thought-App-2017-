@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Donation Incentives"
+                    android:id="@+id/textView26" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Donate $10/5 food items/2 pieces of clothing"
+                    android:id="@+id/textView27"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Donate $20/10 food items/4 pieces of clothing"
+                    android:id="@+id/textView28"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Donate $50/25 food items/10 pieces of clothing"
+                    android:id="@+id/textView29"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Donate $100/50 food items/20 pieces of clothing"
+                    android:id="@+id/textView30"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Donate $150/75 food items/30 pieces of clothing"
+                    android:id="@+id/textView31"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Donate $200/100 food items/40 pieces of clothing"
+                    android:id="@+id/textView32"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Donate $250/125 food items/50 pieces of clothing"
+                    android:id="@+id/textView33"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Donate $300/150 food items/60 pieces of clothing"
+                    android:id="@+id/textView34"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Incentives"
+                    android:id="@+id/Incentivesbutton" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

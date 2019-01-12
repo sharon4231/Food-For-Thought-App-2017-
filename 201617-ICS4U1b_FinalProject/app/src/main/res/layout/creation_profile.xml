@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Creation"
+        android:id="@+id/textView19"
+        android:layout_marginLeft="15dp"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Username"
+        android:id="@+id/textView8"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextUserName"
+        android:hint="i.e. &quot;JohnSmith123&quot;"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your first and last name."
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextName"
+        android:hint="i.e. &quot;John Smith&quot;"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a password (you can change it from the settings later)"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextPassword"
+        android:hint="i.e. &quot;SJohn&quot;"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your homeroom Class"
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextHomeroom"
+        android:hint="i.e. &quot;123&quot;"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="createClick" />
+
+</LinearLayout>
